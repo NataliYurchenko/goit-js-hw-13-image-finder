@@ -1,0 +1,14 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "name": "Test name 1",
+      "rating": 9.2
+    },
+    {
+      "id": 2,
+      "name": "Большая новая книга по NODEJS",
+      "rating": 2.78
+    }
+  ]
+}

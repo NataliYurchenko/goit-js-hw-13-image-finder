@@ -1,0 +1,21 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.search-form {
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  padding: 8px;
+  margin-top: 55px;
+  margin-left: 105px;
+  border-radius: 8px;
+  text-decoration-line: none;
+}
+
+.search .load-more {
+  background-color: aqua;
+  margin-top: 20px;
+}
