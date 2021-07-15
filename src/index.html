@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Заголовок страницы</title>
+    <link rel="stylesheet" href="styles.css" />
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
@@ -16,40 +18,24 @@
     <!-- Так добавляются фрагменты в главные HTML-файлы страниц. -->
     <!-- <include src="./partials/example.html"></include> -->
 
-    <div style="margin-left: 200px">
-      <form
-        class="search-form"
-        id="search-form"
-        style="display: inline-block; margin-left: 20px; margin-top: 20px"
-      >
-        <input
-          class="input-value"
-          type="text"
-          name="query"
-          autocomplete="off"
-          placeholder="Search images..."
-        />
-        <button
-          type="submit"
-          class="search"
-          style="margin: 20px; background-color: bisque; border-radius: 4px"
-        >
-          Search
-        </button>
-      </form>
-
-      <button
-        type="button"
-        class="load-more"
-        style="margin-left: 20px; border-radius: 4px; background-color: bisque; display: block"
-      >
-        Load more
-      </button>
-    </div>
+    <form class="search-form" id="search-form">
+      <input
+        class="input-value"
+        type="text"
+        name="query"
+        autocomplete="off"
+        placeholder="Search images..."
+      />
+      <button type="submit" class="search">Search</button>
+    </form>
 
     <ul class="gallery">
       <!-- Список <li> с карточками изображений -->
     </ul>
+
+    <button type="button" class="load-more">
+      <span class="label">Load more</span>
+    </button>
 
     <!-- Скрипт идёт последним в разметке. В нём уже подключен главный SASS-файл. -->
     <script src="./index.js"></script>

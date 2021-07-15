@@ -5,17 +5,27 @@
 }
 
 .search-form {
-  background-color: antiquewhite;
   display: flex;
   justify-content: center;
   padding: 8px;
-  margin-top: 55px;
-  margin-left: 105px;
-  border-radius: 8px;
-  text-decoration-line: none;
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
 
-.search .load-more {
-  background-color: aqua;
-  margin-top: 20px;
+.load-more {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 4px;
+  background-color: bisque;
+}
+
+.search {
+  margin-left: 15px;
+  background-color: bisque;
+  border-radius: 4px;
+}
+
+.is-hidden {
+  display: none;
 }
