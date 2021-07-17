@@ -13,6 +13,7 @@
       crossorigin="anonymous"
     />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="../node_modules/basiclightbox/dist/basicLightbox.min.css" />
   </head>
   <body>
     <!-- Так добавляются фрагменты в главные HTML-файлы страниц. -->
@@ -29,11 +30,11 @@
       <button type="submit" class="search">Search</button>
     </form>
 
-    <ul class="gallery">
+    <ul class="gallery" id="js-gallery">
       <!-- Список <li> с карточками изображений -->
     </ul>
 
-    <button type="button" class="load-more">
+    <button type="button" class="load-more is-hidden" id="load-more-btn">
       <span class="label">Load more</span>
     </button>
 
