@@ -49,6 +49,7 @@
 .img {
   width: 300px;
   height: 200px;
+  margin: 5px;
 }
 .img-item {
   list-style: none;
