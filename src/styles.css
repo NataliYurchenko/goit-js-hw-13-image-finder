@@ -33,11 +33,14 @@
 .stats {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 .stats-item {
   margin: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .gallery {
